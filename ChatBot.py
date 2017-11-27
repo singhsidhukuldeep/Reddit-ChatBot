@@ -1,3 +1,19 @@
+'''
+CREDITS
+Kuldeep Singh Sidhu
+Github: github/singhsidhukuldeep https://github.com/singhsidhukuldeep
+Website: Kuldeep Singh Sidhu (Website) http://kuldeepsinghsidhu.esy.es
+LinkedIn: Kuldeep Singh Sidhu (LinkedIn) https://www.linkedin.com/in/kuldeep-singh-sidhu-96a67170/
+Repository: github.com/singhsidhukuldeep/Reddit-ChatBot
+Language Used: Python 3.6.1
+Compiler Used:
+'''
+credits = 'CREDITS\nKuldeep Singh Sidhu\n \nGithub:\t github/singhsidhukuldeep https://github.com/singhsidhukuldeep\nWebsite:\t Kuldeep Singh Sidhu (Website) http://kuldeepsinghsidhu.esy.es\nLinkedIn:\t Kuldeep Singh Sidhu (LinkedIn) https://www.linkedin.com/in/kuldeep-singh-sidhu-96a67170/\nRepository:\t github.com/singhsidhukuldeep/Reddit-ChatBot\nLanguage Used:\t Python 3.6.1\nCompiler Used:\t\n\n'
+
+print (credits)
+
+#------------------------------------------------------
+
 import sqlite3
 import json
 from datetime import datetime
@@ -119,3 +135,6 @@ if __name__ == '__main__':
 
             if row_counter % 100000 == 0:
                 print('Total Rows Read: {}, Paired Rows: {}, Time: {}'.format(row_counter, paired_rows, str(datetime.now())))
+
+#----------------------------------------------
+print (credits)
